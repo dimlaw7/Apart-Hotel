@@ -98,3 +98,80 @@ nav i {
         font-size: 2rem;
     }
 }
+
+@media screen and (max-width: 374px) {
+    .login-area button {
+        max-width: 89px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+/*--------------Header------------*/
+header {
+    padding: 20px 0 40px 0;
+    background-color: #fff;
+}
+header .box {
+    margin: 0 0 0 30px;
+}
+header a {
+    font-size: 13px;
+    color: grey;
+}
+header i {
+    font-size: 40px;
+    color: #31b675;
+    margin-right: 15px;
+}
+
+header .text {
+    margin-top: 10px;
+}
+
+header h4 {
+    line-height: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header .contact {
+        justify-content: center;
+        align-items: center;
+    }
+    header i {
+        font-size: 30px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header .contact {
+        display: none;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    header .box {
+        flex-direction: column;
+    }
+    header i {
+        font-size: 15px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    header .text {
+        font-size: 12px;
+    }
+}
+
+/*--------------Header------------*/
