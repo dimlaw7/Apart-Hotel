@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Apart-Hotel/static/css/main.cb563cd8.css",
+    "main.js": "/Apart-Hotel/static/js/main.26cad489.js",
+    "static/js/787.cb51e4cb.chunk.js": "/Apart-Hotel/static/js/787.cb51e4cb.chunk.js",
+    "index.html": "/Apart-Hotel/index.html",
+    "main.cb563cd8.css.map": "/Apart-Hotel/static/css/main.cb563cd8.css.map",
+    "main.26cad489.js.map": "/Apart-Hotel/static/js/main.26cad489.js.map",
+    "787.cb51e4cb.chunk.js.map": "/Apart-Hotel/static/js/787.cb51e4cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb563cd8.css",
+    "static/js/main.26cad489.js"
+  ]
+}
