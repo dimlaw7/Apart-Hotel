@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -58,10 +58,10 @@ const Navbar = () => {
         <header>
             <div className='container flex_space'>
                 <div className='logo'>
-                    <img src='' alt='logo'></img>
+                    <img src='images/aparthotel-logo.svg' alt='logo'></img>
                 </div>
                 <div className='contact flex_space'>
-                    <div class='box flex_space'>
+                    <div className='box flex_space'>
                         <div className='icons'>
                             <i className='fa fa-clock'></i>
                         </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
                             <Link to='/contact'>Monday - Sunday: 9:00am - 6:00pm</Link>
                         </div>
                     </div>
-                    <div class='box flex_space'>
+                    <div className='box flex_space'>
                         <div className='icons'>
                             <i className='fas fa-phone-volume'></i>
                         </div>
@@ -79,7 +79,7 @@ const Navbar = () => {
                             <Link to='/contact'>+234 901 549 1581</Link>
                         </div>
                     </div>
-                    <div class='box flex_space'>
+                    <div className='box flex_space'>
                         <div className='icons'>
                             <i className='far fa-envelope'></i>
                         </div>
@@ -92,6 +92,7 @@ const Navbar = () => {
             </div>
             
         </header>
+        <Outlet />
     </>
         
   )
