@@ -1,10 +1,21 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from './semantics/Navbar/Navbar';
 
 function App() {
   return (
-    <div>
-      <h1>Hello ApartHotel</h1>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Navbar />}>
+            {/* <Route index element={<Home />} />
+            <Route path="blogs" element={<Blogs />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<NoPage />} /> */}
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
