@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Apart-Hotel/static/css/main.4c446d90.css",
-    "main.js": "/Apart-Hotel/static/js/main.713ad0f6.js",
+    "main.css": "/Apart-Hotel/static/css/main.cf09cf04.css",
+    "main.js": "/Apart-Hotel/static/js/main.9da6fef4.js",
     "static/js/787.cb51e4cb.chunk.js": "/Apart-Hotel/static/js/787.cb51e4cb.chunk.js",
+    "static/media/image-heading.jpg": "/Apart-Hotel/static/media/image-heading.334881261f1c66ba24f1.jpg",
     "index.html": "/Apart-Hotel/index.html",
-    "main.4c446d90.css.map": "/Apart-Hotel/static/css/main.4c446d90.css.map",
-    "main.713ad0f6.js.map": "/Apart-Hotel/static/js/main.713ad0f6.js.map",
+    "main.cf09cf04.css.map": "/Apart-Hotel/static/css/main.cf09cf04.css.map",
+    "main.9da6fef4.js.map": "/Apart-Hotel/static/js/main.9da6fef4.js.map",
     "787.cb51e4cb.chunk.js.map": "/Apart-Hotel/static/js/787.cb51e4cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c446d90.css",
-    "static/js/main.713ad0f6.js"
+    "static/css/main.cf09cf04.css",
+    "static/js/main.9da6fef4.js"
   ]
 }
