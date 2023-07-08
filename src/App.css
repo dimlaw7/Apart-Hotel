@@ -97,3 +97,18 @@ textarea, input {
 .top {
   margin-top: 100px;
 }
+
+.grid {
+  grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

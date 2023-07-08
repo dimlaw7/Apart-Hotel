@@ -21,19 +21,19 @@ const Navbar = () => {
                         <Link to='about' onClick={closeMobileMenu}>About</Link>
                     </li>
                     <li>
-                        <Link to='/gallery' onClick={closeMobileMenu}>Gallery</Link>
+                        <Link to='gallery' onClick={closeMobileMenu}>Gallery</Link>
                     </li>
                     <li>
-                        <Link to='/destination' onClick={closeMobileMenu}>Destination</Link>
+                        <Link to='destination' onClick={closeMobileMenu}>Destination</Link>
                     </li>
                     <li>
-                        <Link to='/blog' onClick={closeMobileMenu}>Blog</Link>
+                        <Link to='blog' onClick={closeMobileMenu}>Blog</Link>
                     </li>
                     <li>
-                        <Link to='/testimonial' onClick={closeMobileMenu}>Testimonial</Link>
+                        <Link to='testimonial' onClick={closeMobileMenu}>Testimonial</Link>
                     </li>
                     <li>
-                        <Link to='/contact' onClick={closeMobileMenu}>Contact</Link>
+                        <Link to='contact' onClick={closeMobileMenu}>Contact</Link>
                     </li>
                 </ul>
                 <div className='login-area flex'>
