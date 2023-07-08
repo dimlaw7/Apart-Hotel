@@ -15,10 +15,10 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li>
-                        <Link to='/' onClick={closeMobileMenu}>Home</Link>
+                        <Link to='/Apart-Hotel' onClick={closeMobileMenu}>Home</Link>
                     </li>
                     <li>
-                        <Link to='/home' onClick={closeMobileMenu}>About</Link>
+                        <Link to='about' onClick={closeMobileMenu}>About</Link>
                     </li>
                     <li>
                         <Link to='/gallery' onClick={closeMobileMenu}>Gallery</Link>

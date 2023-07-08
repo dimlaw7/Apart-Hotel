@@ -52,6 +52,18 @@ button {
   color: white;
 }
 
+.secondary-btn {
+  background-color: #31b675;
+  color: #fff;
+}
+
+.outline-btn, .secondary-btn {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 20px;
+  padding: 12px 30px;
+}
+
 .control-btn button {
   background-color: rgba(255, 255, 255, 0.3);
   line-height: 60px;
@@ -80,4 +92,8 @@ textarea, input {
   padding: 20px;
   outline: none;
   border: none;
+}
+
+.top {
+  margin-top: 100px;
 }
