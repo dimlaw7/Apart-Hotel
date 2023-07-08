@@ -74,3 +74,10 @@ button {
   border-radius: 50%;
   color: #fff;
 }
+
+textarea, input {
+  width: 100%;
+  padding: 20px;
+  outline: none;
+  border: none;
+}

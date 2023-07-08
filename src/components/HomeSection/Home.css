@@ -32,3 +32,48 @@
     transition: 1s;
     transform: scale(1.08);
 }
+
+/*----Slide Form-----*/
+.slide-form {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 35%;
+    height: 85vh;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.slide-form h2 {
+    margin-top: 30px;
+}
+
+.slide-form input {
+    margin-top: 20px;
+}
+
+.slide-form .flex_space input:nth-child(odd) {
+    margin-right: 20px;
+}
+
+.slide-form .submit {
+    background-color: #31b675;
+}
+
+@media screen and (max-width: 768px) {
+    .slider {
+        height: 90vh;
+    }
+    
+    .slider img {
+        height: 90vh;
+    }
+
+    .slide-form {
+        left: 5%;
+        top: 35%;
+        width: 90%;
+    }
+}
+/*----Slide Form-----*/

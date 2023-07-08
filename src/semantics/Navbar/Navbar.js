@@ -58,7 +58,7 @@ const Navbar = () => {
         <header>
             <div className='container flex_space'>
                 <div className='logo'>
-                    <img src='images/aparthotel-logo.svg' alt='logo'></img>
+                    <img src='/Apart-Hotel/images/aparthotel-logo.svg' alt='logo'></img>
                 </div>
                 <div className='contact flex_space'>
                     <div className='box flex_space'>
