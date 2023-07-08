@@ -1,10 +1,12 @@
 import React from 'react'
 import AboutCard from '../About/AboutCard'
 import Data from '../HomeSection/Data'
+import HeadTitle from '../../semantics/HeadTitle/HeadTitle'
 
 const About = () => {
   return (
     <>
+        <HeadTitle />
         <section className='about top'>
             <div className='container'>
                 <AboutCard />
