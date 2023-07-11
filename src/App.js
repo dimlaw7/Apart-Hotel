@@ -4,6 +4,7 @@ import Navbar from './semantics/Navbar/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Gallery from './components/Gallery/Gallery';
+import Destinations from './components/Destinations/Destinations';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="gallery" element={<Gallery />} />
+            <Route path="destination" element={<Destinations />} />
             {/* <Route path="*" element={<NoPage />} /> */}
           </Route>
         </Routes>
