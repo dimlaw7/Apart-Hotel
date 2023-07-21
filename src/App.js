@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Gallery from './components/Gallery/Gallery';
 import Destinations from './components/Destinations/Destinations';
+import SinglePage from './components/pages/singlepage/SinglePage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="gallery" element={<Gallery />} />
             <Route path="destination" element={<Destinations />} />
+            <Route path="singlepage/:id" element={<SinglePage />} />
             {/* <Route path="*" element={<NoPage />} /> */}
           </Route>
         </Routes>

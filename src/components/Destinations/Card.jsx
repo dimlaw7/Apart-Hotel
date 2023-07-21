@@ -7,7 +7,7 @@ const Card = ({item : { id, image, title}}) => {
         <div className="items">
             <div className="img">
                 <img src={image} alt=""/>
-                <Link to={`/singlepage/${id}`} className='blogItem-link'>
+                <Link to={`/Apart-Hotel/singlepage/${id}`} className='blogItem-link'>
                     <i className="fas fa-external-link-alt"></i>
                 </Link>
             </div>
