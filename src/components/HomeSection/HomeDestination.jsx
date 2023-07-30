@@ -1,5 +1,6 @@
 import React from 'react'
 import GaleryItems from '../Destinations/GaleryItems'
+import '../HomeSection/popular/MostPopular.css'
 
 const HomeDestination = () => {
   return (
