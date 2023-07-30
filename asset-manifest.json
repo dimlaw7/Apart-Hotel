@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/Apart-Hotel/static/css/main.9f0ad95b.css",
-    "main.js": "/Apart-Hotel/static/js/main.a44018d1.js",
+    "main.css": "/Apart-Hotel/static/css/main.fcf106a2.css",
+    "main.js": "/Apart-Hotel/static/js/main.e727829a.js",
     "static/js/787.cb51e4cb.chunk.js": "/Apart-Hotel/static/js/787.cb51e4cb.chunk.js",
     "static/media/image-heading.jpg": "/Apart-Hotel/static/media/image-heading.334881261f1c66ba24f1.jpg",
+    "static/media/slick.svg": "/Apart-Hotel/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Apart-Hotel/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Apart-Hotel/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Apart-Hotel/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Apart-Hotel/index.html",
-    "main.9f0ad95b.css.map": "/Apart-Hotel/static/css/main.9f0ad95b.css.map",
-    "main.a44018d1.js.map": "/Apart-Hotel/static/js/main.a44018d1.js.map",
+    "main.fcf106a2.css.map": "/Apart-Hotel/static/css/main.fcf106a2.css.map",
+    "main.e727829a.js.map": "/Apart-Hotel/static/js/main.e727829a.js.map",
     "787.cb51e4cb.chunk.js.map": "/Apart-Hotel/static/js/787.cb51e4cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f0ad95b.css",
-    "static/js/main.a44018d1.js"
+    "static/css/main.fcf106a2.css",
+    "static/js/main.e727829a.js"
   ]
 }
